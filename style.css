@@ -1,5 +1,51 @@
 *{
 
     direction: rtl;
-    
+    font-family: 'Vazir';
 }
+.ary {
+background-color: blanchedalmond;
+}
+.register-agency__btn {
+    background-color: rgb(228, 217, 72);
+    float: right ;
+}
+.nav-link active{ 
+    color: darksalmon;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url("./vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Light.eot");
+    src: url("./vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Light.woff") format("woff"),
+    url("./vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Light.otf") format("opentype"),
+    url("./vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Light.svg") format("svg");
+    }
+    .gl{
+        border: 3px solid black;
+    }
+    .gd{ border: 3px solid red;
+    
+    float: right;
+    }
+    .low{
+       float: right;
+    }
+    .high{
+       float: right;
+         ;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th , tr{
+        border: 1px solid #131111;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #131111;
+      }
